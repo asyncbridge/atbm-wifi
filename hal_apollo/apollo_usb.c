@@ -397,6 +397,7 @@ struct sbus_wtd {
 };
 
 static const struct usb_device_id atbm_usb_ids[] = {
+	{USB_DEVICE(0x007a, 0x888b)},
 	/* Asus */
 #ifdef CONFIG_SUPPORT_ASMLITE_FIRMWARE_H_//def CONFIG_SUPPORT_WIFI4_ALL_FIRMWARE_H_
 	{USB_DEVICE(0x007a, 0x888b)},
